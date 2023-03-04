@@ -227,7 +227,7 @@ export function editOption(
     targetOptionIndex: number,
     newOption: string
 ): Question[] {
-    function addr(q: Question){
+    function addr(q: Question) {
         const qarr = [...q.options];
         if (targetOptionIndex !== -1) {
             qarr.splice(targetOptionIndex, 1, newOption);
