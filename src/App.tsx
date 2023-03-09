@@ -25,8 +25,10 @@ function App(): JSX.Element {
                 <TwoDice></TwoDice>
                 <hr />
                 <ChangeType></ChangeType>
-                <hr /> Joseph Casagrande Hello World!
+                <hr />
                 <CycleHoliday></CycleHoliday>
+                <hr />
+                Joseph Casagrande Hello World!
                 <img
                     src="https://d.newsweek.com/en/full/1603394/joe-biden.webp?w=466&h=311&f=e5a40b9c0e107f02bf72ce7c745a96a6"
                     alt="My Grandpa"
@@ -37,9 +39,9 @@ function App(): JSX.Element {
                     <li>Bring peace</li>
                     <li>Be named Joe (after me)</li>
                 </ul>
-                <Button onClick={() => console.log("Hello World!")}>
+                {/* <Button onClick={() => console.log("Hello World!")}>
                     Log Hello World
-                </Button>
+                </Button> */}
             </div>
             <div style={{ border: "5px solid blue", padding: "10px" }}>
                 <Container>
