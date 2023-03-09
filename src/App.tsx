@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import "./App.css";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
@@ -39,9 +39,6 @@ function App(): JSX.Element {
                     <li>Bring peace</li>
                     <li>Be named Joe (after me)</li>
                 </ul>
-                {/* <Button onClick={() => console.log("Hello World!")}>
-                    Log Hello World
-                </Button> */}
             </div>
             <div style={{ border: "5px solid blue", padding: "10px" }}>
                 <Container>
