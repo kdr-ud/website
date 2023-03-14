@@ -30,6 +30,14 @@ function App(): JSX.Element {
             <ChangeType></ChangeType>
             <hr />
             <CycleHoliday></CycleHoliday>
+            <hr />
+            <DoubleHalf></DoubleHalf>
+            <hr />
+            <ChooseTeam></ChooseTeam>
+            <hr />
+            <ColoredBox></ColoredBox>
+            <hr />
+            <ShoveBox></ShoveBox>
         </div>
     );
 }
