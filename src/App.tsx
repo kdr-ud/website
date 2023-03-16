@@ -23,7 +23,7 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
@@ -43,13 +43,18 @@ function App(): JSX.Element {
             <hr />
             <CycleHoliday></CycleHoliday>
             <hr />
-            <DoubleHalf></DoubleHalf>
+            <CheckAnswer expectedAnswer={"42"}></CheckAnswer>
             <hr />
-            <ChooseTeam></ChooseTeam>
+            <GiveAttempts></GiveAttempts>
             <hr />
-            <ColoredBox></ColoredBox>
+            <EditMode></EditMode>
             <hr />
-            <ShoveBox></ShoveBox>
+            <ChangeColor></ChangeColor>
+            <hr />
+            <MultipleChoiceQuestion
+                options={["2", "10", "3"]}
+                expectedAnswer={"10"}
+            ></MultipleChoiceQuestion>
         </div>
     );
 }
