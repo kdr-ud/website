@@ -35,7 +35,7 @@ FAIL src/App.test.tsx
           [36m<header[39m
             [33mclass[39m=[32m"App-header"[39m
           [36m>[39m
-            [0mI LOVE YOU HALEY[0m
+            [0mKDR UD[0m
           [36m</header>[39m
           [36m<img[39m
             [33mheight[39m=[32m"333"[39m
@@ -99,5 +99,5 @@ All files                    |     100 |    98.83 |     100 |     100 |
 Test Suites: 1 failed, 19 passed, 20 total
 Tests:       1 failed, 133 passed, 134 total
 Snapshots:   0 total
-Time:        12.323 s
+Time:        17.933 s
 Ran all test suites.
