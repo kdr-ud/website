@@ -19,10 +19,13 @@ import { ChangeColor } from "./form-components/ChangeColor";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript
-            </header>
-            <hr></hr>
+            <header className="App-header">KDRUD</header>
+            <img
+                src="https://www.kdr.com/wp-content/uploads/2022/04/KDR-coat-of-arms.png"
+                width="500"
+                height="333"
+            ></img>
+            {/* <hr></hr>
             <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
@@ -54,7 +57,7 @@ function App(): JSX.Element {
             <MultipleChoiceQuestion
                 options={["2", "10", "3"]}
                 expectedAnswer={"10"}
-            ></MultipleChoiceQuestion>
+            ></MultipleChoiceQuestion> */}
         </div>
     );
 }
