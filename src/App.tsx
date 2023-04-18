@@ -19,7 +19,7 @@ import "./App.css";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <header className="App-header">I LOVE YOU HALEY</header>
+            <header className="App-header">KDR UD</header>
             <img
                 src="https://www.kdr.com/wp-content/uploads/2022/04/KDR-coat-of-arms.png"
                 width="500"
