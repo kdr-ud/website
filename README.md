@@ -1,4 +1,4 @@
-# React TypeScript Starter Repo YESSSSSSS
+# React TypeScript Starter Repo YESSSSSSSSSS
 
 Hello! This repository has been pre-configured with eslint and gh-pages to automatically deploy your app when you push to the main branch.
 
